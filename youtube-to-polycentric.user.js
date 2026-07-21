@@ -3,6 +3,7 @@
 // @version      1.0
 // @description  Adds an "Open in Polycentric" link next to the Comments heading
 // @author       LittleBit
+// @namespace    https://tangled.org/did:plc:ba3ftueh2aewxja4dtuhi7kf
 // @match        https://www.youtube.com/*
 // @icon         https://favicon.im/polycentric.io
 // @grant        none
