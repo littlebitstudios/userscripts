@@ -3,7 +3,7 @@
 // @version      1.0
 // @author       LittleBit
 // @namespace    https://tangled.org/did:plc:ba3ftueh2aewxja4dtuhi7kf
-// @description  Adds an option in the Tampermonkey menu to copy a clean link
+// @description  Adds an option in the Tampermonkey menu to copy a link of the format "amazon.com/dp/[ASIN]"
 // @match        *://*.amazon.com/*
 // @match        *://*.amazon.co.uk/*
 // @match        *://*.amazon.ca/*
