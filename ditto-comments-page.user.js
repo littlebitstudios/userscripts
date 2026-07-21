@@ -3,7 +3,7 @@
 // @version      1.0
 // @author       LittleBit
 // @description  Leave comments on a web page using Ditto.
-// @namespace    https://gitworkshop.dev/littlebitstudios.com/userscripts
+// @namespace    https://tangled.org/did:plc:ba3ftueh2aewxja4dtuhi7kf
 // @match        *://*/*
 // @icon         https://favicon.im/ditto.pub
 // @grant        GM_registerMenuCommand

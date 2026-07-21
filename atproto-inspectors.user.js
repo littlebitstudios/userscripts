@@ -2,7 +2,7 @@
 // @name        ATProto Inspectors
 // @version     1.0
 // @author      LittleBit
-// @namespace   https://gitworkshop.dev/littlebitstudios.com/userscripts
+// @namespace   https://tangled.org/did:plc:ba3ftueh2aewxja4dtuhi7kf
 // @match       https://bsky.app/*
 // @grant       GM_registerMenuCommand
 // @description Inspect the raw data behind a Bluesky post or profile

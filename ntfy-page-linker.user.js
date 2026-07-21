@@ -3,7 +3,7 @@
 // @version      1.0
 // @author       LittleBit
 // @description  Sends the current page title and URL to ntfy via the script manager menu.
-// @namespace    https://gitworkshop.dev/littlebitstudios.com/userscripts
+// @namespace    https://tangled.org/did:plc:ba3ftueh2aewxja4dtuhi7kf
 // @match        *://*/*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_notification

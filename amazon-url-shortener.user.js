@@ -2,7 +2,7 @@
 // @name         Amazon URL Shortener
 // @version      1.0
 // @author       LittleBit
-// @namespace    https://gitworkshop.dev/littlebitstudios.com/userscripts
+// @namespace    https://tangled.org/did:plc:ba3ftueh2aewxja4dtuhi7kf
 // @description  Adds an option in the Tampermonkey menu to copy a clean link
 // @match        *://*.amazon.com/*
 // @match        *://*.amazon.co.uk/*

@@ -2,7 +2,7 @@
 // @name        Redirect Hey to Palus
 // @version     1.0
 // @author      LittleBit
-// @namespace   https://gitworkshop.dev/littlebitstudios.com/userscripts
+// @namespace   https://tangled.org/did:plc:ba3ftueh2aewxja4dtuhi7kf
 // @match       *://hey.xyz/*
 // @grant       none
 // @run-at      document-start
