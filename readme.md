@@ -16,3 +16,5 @@ This repository is replicated on [GitWorkshop/ngit](https://gitworkshop.dev/litt
 - **youtube-to-polycentric:** Adds a link above YouTube comments sections to open a page on polycentric.io, so users of the YouTube website can see comments left by users of alternative YouTube client Grayjay.
   - ***This currently doesn't work, as FUTO are making changes to polycentric.io***
   - [Install this userscript](https://tangled.org/littlebitstudios.com/userscripts/raw/main/youtube-to-polycentric.user.js)
+
+The code in this repository is open-source under the MIT license.
