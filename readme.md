@@ -4,7 +4,7 @@ A repository of my userscripts, for use with Tampermonkey or another userscript 
 
 This repository is replicated on [GitWorkshop/ngit](https://gitworkshop.dev/littlebitstudios.com/userscripts) and [Tangled](https://tangled.org/did:plc:ba3ftueh2aewxja4dtuhi7kf), and install links come from Tangled as GitWorkshop doesn't support raw viewing.
 
-- **amazon-url-shortener:** Shortens an Amazon URL to just `amazon.com/dp/[ASIN]`, as that's all that's needed to share an Amazon product.
+- **amazon-url-shortener:** Shortens an Amazon URL to just `amazon.com/dp/[ASIN]` and copies it to your clipboard, as that's all that's needed to share an Amazon product.
   - [Install this userscript](https://tangled.org/littlebitstudios.com/userscripts/raw/main/amazon-url-shortener.user.js)
 - **atproto-inspectors:** See details about Bluesky posts and profiles using ATProto Browser, Clearsky, PDSls, or atproto.at.
   - [Install this userscript](https://tangled.org/littlebitstudios.com/userscripts/raw/main/atproto-inspectors.user.js)
