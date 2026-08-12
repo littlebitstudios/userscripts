@@ -2,7 +2,9 @@
 
 A repository of my userscripts, for use with Tampermonkey or another userscript extension.
 
-This repository is replicated on [GitWorkshop/ngit](https://gitworkshop.dev/littlebitstudios.com/userscripts) and [Tangled](https://tangled.org/did:plc:ba3ftueh2aewxja4dtuhi7kf), and install links come from Tangled as GitWorkshop doesn't support raw viewing.
+This repository is replicated on [GitWorkshop/ngit](https://gitworkshop.dev/littlebitstudios.com/userscripts), [GitHub](https://github.com/littlebitstudios/userscripts), [Tangled](https://tangled.org/did:plc:ba3ftueh2aewxja4dtuhi7kf), and [Radicle](https://radicle.network/nodes/rad.littlebitstudios.com/rad%3Az6hGQhaCqWnHYuk9JmKrhRV45f1U).
+
+Install links in this file come from Tangled. You can use the "raw" buttons in the files on GitHub or Radicle to install from those, and direct install is not supported by GitWorkshop.
 
 - **amazon-url-shortener:** Shortens an Amazon URL to just `amazon.com/dp/[ASIN]` and copies it to your clipboard, as that's all that's needed to share an Amazon product.
   - [Install this userscript](https://tangled.org/littlebitstudios.com/userscripts/raw/main/amazon-url-shortener.user.js)
