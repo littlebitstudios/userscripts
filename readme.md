@@ -18,5 +18,7 @@ Install links in this file come from Tangled. You can use the "raw" buttons in t
 - **youtube-to-polycentric:** Adds a link above YouTube comments sections to open a page on polycentric.io, so users of the YouTube website can see comments left by users of alternative YouTube client Grayjay.
   - ***This currently doesn't work, as FUTO are making changes to polycentric.io***
   - [Install this userscript](https://tangled.org/littlebitstudios.com/userscripts/raw/main/youtube-to-polycentric.user.js)
+- **switch-nostr-clients**: Switch between different Nostr clients from the extension menu or a right-click when viewing Nostr posts or profiles on the web. Currently supports 5 clients, contributions are welcome.
+  - [Install this userscript](https://tangled.org/littlebitstudios.com/userscripts/raw/main/switch-nostr-clients.user.js)
 
 The code in this repository is open-source under the MIT license.
