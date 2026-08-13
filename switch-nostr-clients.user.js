@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Switch Nostr Clients
 // @namespace    https://tangled.org/did:plc:ba3ftueh2aewxja4dtuhi7kf
-// @version      2026-08-08
+// @version      1.0
 // @description  Switch between different Nostr clients when viewing Nostr posts or profiles on the web
 // @author       LittleBit
 // @match        *://*/*
