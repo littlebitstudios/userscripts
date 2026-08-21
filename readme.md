@@ -10,6 +10,8 @@ Install links in this file come from Tangled. You can use the "raw" buttons in t
   - [Install this userscript](https://tangled.org/littlebitstudios.com/userscripts/raw/main/amazon-url-shortener.user.js)
 - **atproto-inspectors:** See details about Bluesky posts and profiles using ATProto Browser, Clearsky, PDSls, or atproto.at.
   - [Install this userscript](https://tangled.org/littlebitstudios.com/userscripts/raw/main/atproto-inspectors.user.js)
+- **bsky-replacer:** Attempts to go to bsky.app can be redirected to any similar client of your choosing.
+  - [Install this userscript](https://tangled.org/littlebitstudios.com/userscripts/raw/main/bsky-replacer.user.js)
 - **ditto-comments-page:** Leave NIP-22 comments on a page at ditto.pub.
   - ***You'll need a Nostr identity to leave comments, if you want one you can get one at the login screen on Ditto***
   - [Install this userscript](https://tangled.org/littlebitstudios.com/userscripts/raw/main/ditto-comments-page.user.js)
