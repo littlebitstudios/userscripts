@@ -10,10 +10,11 @@
 // @description Attempts to go to bsky.app can be redirected to any similar client of your choosing (default witchsky.app)
 // ==/UserScript==
 
-const clientDomain = "witchsky.app" // Replace with the domain of the Bluesky client you want to use
-
 (function() {
     'use strict';
+
+    const clientDomain = "witchsky.app" // Replace with the domain of the Bluesky client you want to use
+
     // Replaces the domain while keeping the path and query parameters
     const newUrl = window.location.href.replace('bsky.app', clientDomain);
     window.location.replace(newUrl);
