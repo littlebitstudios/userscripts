@@ -2,7 +2,7 @@
 
 A repository of my userscripts, for use with Tampermonkey or another userscript extension.
 
-This repository is replicated on [GitWorkshop/ngit](https://gitworkshop.dev/littlebitstudios.com/userscripts), [GitHub](https://github.com/littlebitstudios/userscripts), [Tangled](https://tangled.org/did:plc:ba3ftueh2aewxja4dtuhi7kf), and [Radicle](https://radicle.network/nodes/rad.littlebitstudios.com/rad%3Az6hGQhaCqWnHYuk9JmKrhRV45f1U).
+This repository is replicated on [GitWorkshop/ngit](https://gitworkshop.dev/littlebitstudios.com/userscripts), [GitHub](https://github.com/littlebitstudios/userscripts), [Tangled](https://tangled.org/did:plc:ba3ftueh2aewxja4dtuhi7kf), and [Radicle](https://radicle.network/nodes/rad.littlebitstudios.com/rad%3Az7eTWinR51wPEE4zNtjnacu33HY7).
 
 Install links in this file come from Tangled. You can use the "raw" buttons in the files on GitHub or Radicle to install from those, and direct install is not supported by GitWorkshop.
 
