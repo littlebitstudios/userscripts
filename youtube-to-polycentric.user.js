@@ -1,18 +1,18 @@
 // ==UserScript==
-// @name         YouTube to Polycentric Link
+// @name         YouTube to Harbor Link
 // @version      1.0
-// @description  Adds an "Open in Polycentric" link next to the Comments heading
+// @description  Adds an "Open in Harbor" link next to the Comments heading
 // @author       LittleBit
 // @namespace    https://tangled.org/did:plc:ba3ftueh2aewxja4dtuhi7kf
 // @match        https://www.youtube.com/*
-// @icon         https://favicon.im/polycentric.io
+// @icon         https://favicon.im/harbor.social
 // @grant        none
 // ==/UserScript==
 
 (function() {
     'use strict';
 
-    function addPolycentricLink() {
+    function addHarborLink() {
         // 1. Get the Video ID from the current URL
         const urlParams = new URLSearchParams(window.location.search);
         const videoId = urlParams.get('v');
@@ -24,17 +24,17 @@
         const commentsHeader = document.querySelector('#title.style-scope.ytd-comments-header-renderer');
 
         // Check if header exists and if we haven't already added the link
-        if (commentsHeader && !document.getElementById('polycentric-link')) {
+        if (commentsHeader && !document.getElementById('harbor-link')) {
 
-            const rawUrl = `https://www.youtube.com/watch?v=${videoId}`;
+            const rawUrl = `www.youtube.com/watch?v=${videoId}`;
             const encodedUrl = encodeURIComponent(rawUrl);
-            const polycentricUrl = `https://polycentric.io/t/${encodedUrl}`;
+            const harborUrl = `https://harbor.social/anywhere/u/${encodedUrl}`;
 
             const link = document.createElement('a');
-            link.id = 'polycentric-link';
-            link.href = polycentricUrl;
+            link.id = 'harbor-link';
+            link.href = harborUrl;
             link.target = '_blank';
-            link.innerText = 'Open in Polycentric';
+            link.innerText = 'Open in Harbor';
 
             // Styling
             link.style.marginLeft = '15px';
@@ -48,11 +48,11 @@
     }
 
     // SPA Navigation handling: YouTube fires 'yt-navigate-finish' when the URL changes
-    window.addEventListener('yt-navigate-finish', addPolycentricLink);
+    window.addEventListener('yt-navigate-finish', addHarborLink);
 
     // MutationObserver handles cases where the comments section is lazy-loaded
     const observer = new MutationObserver(() => {
-        addPolycentricLink();
+        addHarborLink();
     });
 
     observer.observe(document.body, {
@@ -61,5 +61,5 @@
     });
 
     // Run on initial load
-    addPolycentricLink();
+    addHarborLink();
 })();
